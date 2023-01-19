@@ -9,6 +9,429 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  
+  <header>
+    <div class="">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <div class="container-fluid">
+
+          <!-- logo -->
+          <a class="navbar-brand fw-bold" href="#">Anime Heaven</a>
+
+          <!-- menu toggler -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- nav list  -->
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold fs-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">About Us</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Contact</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link text-black" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-light slide h-auto">
+
+      <!-- triggers  -->
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <!-- carousel box -->
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="100">
+          <img src="./images/clover_p.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-white">
+            <h5 class="display-5  fw-semibold ">Baka Asta</h5>
+            <p class="text-white-50">Black Clover is a Japanese manga series written and illustrated by Yūki Tabata. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since February 2015, with its chapters collected in 33 tankōbon volumes as of November 2022. The story follows Asta, a young boy born without any magic power</p>
+            <button class="btn btn-light my-2">Watch Now</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/bleach_p.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-5  fw-semibold ">Ichigo Kurosaki</h5>
+            <p class="text-white-50">Ichigo Kurosaki never asked for the ability to see ghosts -- he was born with the gift. When his family is attacked by a Hollow -- a malevolent lost soul -- Ichigo becomes a Soul Reaper, dedicating his life to protecting the innocent and helping the tortured spirits themselves find peace.</p>
+            <button class="btn btn-light my-2">Watch Now</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/zoro_p.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-5  fw-semibold ">Roronoa Zoro</h5>
+            <p class="text-white-50">Ichigo Kurosaki never asked for the ability to see ghosts -- he was born with the gift. When his family is attacked by a Hollow -- a malevolent lost soul -- Ichigo becomes a Soul Reaper, dedicating his life to protecting the innocent and helping the tortured spirits themselves find peace.</p>
+            <button class="btn btn-light my-2">Watch Now</button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./images/naruto_p.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-5  fw-semibold ">Itachi Uchiha</h5>
+            <p class="text-white-50">Itachi Uchiha is a character in the Naruto manga and anime series created by Masashi Kishimoto. Itachi is the older brother of Sasuke Uchiha, and is responsible for killing all the members of their clan, sparing only Sasuke.</p>
+            <button class="btn btn-light my-2">Watch Now</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- main body -->
+
+  <main>
+
+    <!-- moment section starts -->
+    <section class="moments my-5 mx-auto max-h-50">
+      <div class="container-sm d-flex">
+        <div class="row align-items-center text-start">
+
+          <!-- img container -->
+          <div class="col-lg-6">
+            <div class="text-center my-2">
+              <img class="img-fluid rounded-5" src="./images/bl.png" alt="">
+            </div>
+          </div>
+
+
+          <!-- text container -->
+          <div class="col-lg-6 my-2 order-first order-lg-last">
+            <h3 class="fs-2 fw-semibold">Every Episode is precious</h3>
+            <p class="text-wrap"">Blue Lock is a Japanese manga series written by Muneyuki Kaneshiro and illustrated by Yusuke Nomura. It has been serialized in Kodansha's Weekly Shōnen Magazine since August 2018, with its chapters collected in 22 tankōbon volumes as of December 2022.</p>
+            <button class="btn btn-primary fs-5 p-3 d-none d-lg-block ">Explore All Episode <img src="./icons/arrow-forward 1.svg" alt=""></button>
+          </div>
+          <button class="btn btn-primary fs-5 p-3 d-lg-none w-50 mx-auto">Explore All Episode <img src="./icons/arrow-forward 1.svg" alt=""></button>
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="package my-5 bg-light rounded-5">
+      <div class="container py-5">
+
+        <h2 class="display-3 fw-semibold text-center">Our Package</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 mx-auto py-5">
+
+          <div class="col">
+            <div class="card border rounded-4">
+              <div class="card-body">
+              <h5 class="card-title display-5 fw-semibold text-success ">$8</h5>
+              <h5 class="card-title display-5 fw-semibold ">Crunchyroll</h5>
+              <p class="card-text">Because of its robust stable of content, Crunchyroll has become the global destination for anime streaming. The brand boasts over 100 million registered users and more than 5 million subscribers.</p>
+              </div>
+              <ul class="">
+              <li class="list-group-item align-items-center d-flex mt-1"><ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                One hour after premiere in Japan</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon>  
+                variety of anime</li>
+              <li class="list-group-item align-items-center d-flex mt-1 "> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Uncut Japanese versions </li>
+              <li class="list-group-item align-items-center d-flex mt-1 "> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free account to stream ad-supported content</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free 14-day trial</li>
+              </ul>
+              <div class="card-body mx-auto">
+              <button class="btn btn-primary bg-light text-primary fw-bold fs-5 d-block rounded-5 px-5">Subscribe</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col"><div class="card border rounded-4 ">
+            <div class="card-body">
+              <h5 class="card-title display-5 fw-semibold text-success ">Free!</h5>
+              <h5 class="card-title display-5 fw-semibold ">Zoro.to</h5>
+              <p class="card-text">Zoro is a Free anime streaming website which you can website which you can watchwatch English Subbed and Dubbed Anime online with No Account and Daily update. WATCH NOW!</p>
+            </div>
+            <ul class="">
+              <li class="list-group-item align-items-center d-flex mt-1"><ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                One hour after premiere in Japan</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon>  
+                variety of anime</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Uncut Japanese versions </li>
+              <li class="list-group-item align-items-center d-flex mt-1 "> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free account to stream ad-supported content</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free 14-day trial</li>
+            </ul>
+            <div class="card-body mx-auto">
+              <button class="btn btn-primary bg-light text-primary fw-bold fs-5 d-block rounded-5 px-5">Subscribe</button>
+            </div>
+          </div></div>
+          <div class="col"><div class="card border rounded-4 ">
+            <div class="card-body">
+              <h5 class="card-title display-5 fw-semibold text-success ">$Free</h5>
+              <h5 class="card-title display-5 fw-semibold ">Funimation</h5>
+              <p class="card-text">Crunchyroll, LLC, previously known as Funimation from 1994 to 2022, is an American entertainment company owned by Japanese conglomerate Sony as a joint venture between Sony Pictures</p>
+            </div>
+            <ul class="">
+              <li class="list-group-item align-items-center d-flex mt-1"><ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                One hour after premiere in Japan</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon>  
+                variety of anime</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Uncut Japanese versions </li>
+              <li class="list-group-item align-items-center d-flex mt-1 "> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free account to stream ad-supported content</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free 14-day trial</li>
+            </ul>
+            <div class="card-body mx-auto">
+              <button class="btn btn-primary bg-light text-primary fw-bold fs-5 d-block rounded-5 px-5">Subscribe</button>
+            </div>
+          </div></div>
+          <div class="col"><div class="card border rounded-4 ">
+            <div class="card-body">
+              <h5 class="card-title display-5 fw-semibold text-success ">$Free</h5>
+              <h5 class="card-title display-5 fw-semibold ">Animixplay</h5>
+              <p class="card-text">Animixplay is a game video streaming source recently loved by anime lovers. After all, a game is set to boost indescribable happiness for anime lovers, right? Sadly the website is now having issues with its loading.</p>
+            </div>
+            <ul class="">
+              <li class="list-group-item align-items-center d-flex mt-1"><ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                One hour after premiere in Japan</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon>  
+                variety of anime</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Uncut Japanese versions </li>
+              <li class="list-group-item align-items-center d-flex mt-1 "> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free account to stream ad-supported content</li>
+              <li class="list-group-item align-items-center d-flex mt-1"> <ion-icon class="fs-4 fw-bold bg-light text-primary p-1 rounded-5 me-2" name="checkmark-circle-outline"> </ion-icon> 
+                Free 14-day trial</li>
+            </ul>
+            <div class="card-body mx-auto">
+              <button class="btn btn-primary bg-light text-primary fw-bold fs-5 d-block rounded-5 px-5">Subscribe</button>
+            </div>
+          </div></div>  
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="happy my-5 py-5">
+      <div class="container">
+
+        <h2 class="display-3 fw-semibold text-center my-5">Our Happy Clients says</h2>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+          <div class="col">
+            <div class="card p-3 text-center rounded-5">
+              <div class="card-body">
+                <p>I'm not done yet! No one can stop me! Gah ha ha!</p>
+              </div>
+              <div class="card-img">
+                <img src="./images/whitebeard.png" alt="" class="img-fluid rounded-5">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title fs-5 fw-semibold">Edward Newgate</h3>
+                <p class="card-text">Pirate</p>
+              </div>
+            </div>
+          </div>
+          <div class="col"><div class="card p-3 text-center rounded-5">
+            <div class="card-body">
+              <p> He just doesn't realize it himself. Everyone is a slave to something.</p>
+            </div>
+            <div class="card-img">
+              <img src="./images/acekel.jpg" alt="" class="img-fluid rounded-5">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title fs-5 fw-semibold">Askeladd </h3>
+              <p class="card-text">Vikings</p>
+            </div>
+          </div></div>
+          <div class="col">
+            <div class="card p-3 text-center rounded-5">
+              <div class="card-body">
+                <p>Life happens wherever you are, whether you make it or not</p>
+              </div>
+              <div class="card-img">
+                <img src="./images/uncle iroh.png" alt="" class="img-fluid rounded-5">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title fs-5 fw-semibold">Uncle Iroh</h3>
+                <p class="card-text">General</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="faq my-5 py-5 bg-light rounded-5 ">
+      <div class="container">
+        <h2 class="display-3 fw-semibold text-center my-5">Frequently Asked Questions</h2>
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 bg-light border rounded-2">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Why should you watch anime?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Some animes have hidden meanings than ordinary shows, like saying taking it easy from time to time and even taking things slow in relationships and connections. Anime is something that can be enjoyed without having to feel anxious about the outside world where you must experience things you don't want to yet.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    5 facts about anime?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body"> 1. 'Kimi no Na Wa' (Your Name) is the third highest-grossing anime film of all time! <br>
+                    2. The longest-running anime has more than 7,500 episodes. <br>
+                    3. 'Spirited Away' is the first anime film to be nominated for an Academy Award, and won! <br>
+                    4. Death Note is banned in China. <br>
+                    5. The ramen shop 'Ichiraku' in Naruto exists.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What is so unique about anime?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Anime differs from other forms of animation by its art styles, methods of animation, its production, and its process. Visually, anime works exhibit a wide variety of art styles, differing between creators, artists, and studios.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Why anime is so addictive?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Escapism – Coping with everyday life can be difficult for teenagers so they find it attractive to escape into anime where the characters, settings and plots are a good distraction. However, using anime or manga to escape from reality and/or relieve stress, anxiety and depression can be become addictive.</div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 bg-light text-center my-4">
+            <img src="./images/anime-watching.jpg" alt="" class="img-fluid rounded-5">
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer bg-black py-5 text-white fs-6">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-8"><p class="footer-text">© 2020 bike. All rights reserved</p>
+          </div>
+          <div class="col-md-2 col-4">
+            <h3 class="fs-3">Get the App</h3>
+            <ul class="list-unstyled">
+              <li class="my-3"><img src="./images/appstore.png" alt="" class="img-fluid"></li>
+              <li class="my-3"><img src="./images/play.png" alt="" class="img-fluid"></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+        
+    </div>
+  </footer>
+
+
+  <!-- <section>
+    <div class="container my-5 position-relative">
+
+      <div class="row align-items-center justify-content-center justify-content-md-start">
+
+        <div class="col-md-6 order-last order-sm-first">
+          
+
+          <h3 class="fs-2 fw-semibold">Every Moment is precious</h3>
+          <p class="text-wrap"">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo tempore itaque consequuntur incidunt vel fugit, possimus quia repellendus asperiores ullam. Accusantium neque cupiditate et esse quo repellat velit nisi totam?</p>
+          
+
+
+        </div>
+
+
+        <div class="col-md-6 order-first border">
+           
+
+          <div class="text-center my-2">
+            <img class="img-fluid" src="./images/wedding.png" alt="">
+          </div>
+
+        </div>
+        <div class="col-6 order-sm-last">
+           
+
+          <button class="btn btn-primary fs-5 p-3">Explore Our Album <img src="./icons/arrow-forward 1.svg" alt=""></button>
+
+
+        </div>
+      </div>
+    </div>
+    
+  </section> -->
+
+  <!-- scripts -->
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
